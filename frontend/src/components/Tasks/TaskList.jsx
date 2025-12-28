@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TaskItem from './TaskItem';
 import TaskForm from './TaskForm';
-import { taskAPI } from 'src/services';
+import { taskAPI } from '../../servcies/api/api';
 
 const TaskList = () => {
     const [tasks, setTasks] = useState([]);

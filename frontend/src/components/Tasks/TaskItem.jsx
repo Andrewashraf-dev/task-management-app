@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { taskAPI } from 'src/services/api';
+import { taskAPI } from '../../servcies/api/api';
 import TaskForm from './TaskForm';
 
 const TaskItem = ({ task, onTaskUpdated, onTaskDeleted }) => {
